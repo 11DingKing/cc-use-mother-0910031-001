@@ -1,0 +1,6 @@
+[project]
+name = "domain-contract-0910031-001"
+version = "0.1.0"
+description = "未成年志愿者授权排班的领域约定与校验工具"
+requires-python = ">=3.11"
+dependencies = []
