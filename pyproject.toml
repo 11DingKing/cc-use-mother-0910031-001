@@ -1,6 +1,15 @@
 [project]
 name = "domain-contract-0910031-001"
-version = "0.1.0"
-description = "未成年志愿者授权排班的领域约定与校验工具"
+version = "0.2.0"
+description = "未成年志愿者授权排班的领域约定、校验工具与完整服务端"
 requires-python = ">=3.11"
 dependencies = []
+
+[project.scripts]
+volsched = "volsched.__main__:main"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]
